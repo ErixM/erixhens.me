@@ -1,6 +1,6 @@
 body {
   background-image: url("./Laptop.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 .little-logo {
   height: 40px;
