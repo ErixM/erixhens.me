@@ -1,6 +1,5 @@
 body {
-  background-image: url("./Laptop.jpg");
-  background-size: cover;
+  background-color: coral;
 }
 .little-logo {
   height: 40px;
