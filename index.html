@@ -2,8 +2,6 @@
 <html lang="it">
   <head>
     <link rel="stylesheet" href="./style.css" />
-    <img class="little-logo" src="./logo.svg" alt="logo" />
-    <script src="./script.js"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +9,20 @@
     <title>Erixhens</title>
   </head>
   <body>
-    <h2>Ckemi</h2>
-    <p id="portfolio">Portfolio website</p>
+    <!-- Navigation bar -->
+    <nav class="main-nav">
+      <img class="little-logo popSpring" src="./logo.svg" alt="logo" />
+    </nav>
+
+    <section class="wip">
+      <h1>
+        Work in progress. In the meantime, try
+        <span style="cursor: grab;">grabbing</span> the logo! :)
+      </h1>
+    </section>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
