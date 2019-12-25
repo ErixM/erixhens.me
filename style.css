@@ -1,6 +1,14 @@
+* {
+  box-sizing: border-box;
+}
 .popSpring {
+  cursor: -webkit-grab;
   cursor: grab;
   z-index: 10;
+}
+.main-nav {
+  z-index: 5;
+  position: relative;
 }
 .little-logo {
   height: 40px;
@@ -27,4 +35,6 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  border: 1px solid #dadada;
+  background-color: #dadada;
 }
