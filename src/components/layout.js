@@ -1,7 +1,14 @@
 import React from "react"
 import Sidebar from "./sidebar"
 import { Global, css } from "@emotion/core"
-const Layout = ({ children }) => (
+import Helmet from "react-helmet"
+import useSiteMetadata from '../hooks/use-sitemetadata'
+
+const Layout = ({ children }) => {
+
+  const { title, description } = useSiteMetadata();
+  
+  return (
   <>
     <Global
       styles={css`
@@ -58,11 +65,16 @@ const Layout = ({ children }) => (
         }
       `}
     />
+    <Helmet>
+      <html lang="en" />
+<title>{title}</title>
+      <meta name="description" content={description} />
+    </Helmet>
     <div id="global-container">
       {/* ^ flex container, below flex items */}
       <Sidebar />
       <div id="main-content-right">{children}</div>
     </div>
   </>
-)
+)}
 export default Layout
