@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "deploy2": "gatsby build --prefix-paths && gh-pages -d public",
-    "push":"git subtree push --prefix public origin gh-pages",
+    "push": "git subtree push --prefix public origin gh-pages",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
