@@ -6,7 +6,7 @@ export default () => (
 
     <ul>
       <li>
-        <a href="mailto:erixhens.muka@gmail.com">erixhens.muka@mail.com</a>
+        <a href="mailto:erixhens.muka@gmail.com">erixhens.muka@gmail.com</a>
       </li>
       <li>
         <a href="https://www.twitter.com/erixhens">Twitter</a>{" "}
