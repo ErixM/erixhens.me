@@ -10,13 +10,12 @@ const activeStyles = {
   color: "#59abe3",
 }
 
-
 const NavLink = ({ children, to }) => (
   <Link
     to={to}
     style={linkStyles}
     activeStyle={activeStyles}
-    partiallyActive={false}
+    partiallyActive={true}
   >
     {children}
   </Link>

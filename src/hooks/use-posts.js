@@ -7,18 +7,21 @@ const usePosts = () => {
         nodes {
           frontmatter {
             title
-            slug
             author
+            slug
           }
           excerpt
         }
       }
     }
   `)
+
   return data.allMdx.nodes.map(post => ({
-    title: "",
-    author: "",
-    slug: "",
-    excerpt: "",
+    title: post.frontmatter.title,
+    author: post.frontmatter.author,
+    slug: post.frontmatter.slug,
+    excerpt: post.excerpt,
   }))
 }
+
+export default usePosts
