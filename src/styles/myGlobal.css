@@ -23,6 +23,7 @@
   /* height: auto; */
   flex: 5;
   overflow: auto;
+  background-color: #F3EEE2;
 }
 #top-nav {
   float: right;
@@ -48,4 +49,7 @@ a:hover {
 }
 ul {
   padding-left: 0;
+}
+#contactMe {
+  font-size: larger;
 }
