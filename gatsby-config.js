@@ -9,7 +9,7 @@ module.exports = {
       resolve: "gatsby-plugin-simple-analytics",
       options: {
         // Optional custom domain
-        domain: "erixhens.me",
+        domain: "quirky-edison-b31fcc.netlify.com",
       },
     },
     "gatsby-plugin-emotion",
