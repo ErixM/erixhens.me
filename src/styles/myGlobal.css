@@ -46,3 +46,6 @@ a:hover {
 .link-text:hover {
   color: #59abe3;
 }
+ul {
+  padding-left: 0;
+}
