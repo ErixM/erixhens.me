@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Hello World!","author":"Erixhens Muka","slug":"hello-world"},"excerpt":"My first blog post written with MDX!My first blog post written with MDX!\nMy first blog post written with MDX!\nMy first blog post written…"},{"frontmatter":{"title":"Another Post","author":"Erixhens Muka","slug":"another-post"},"excerpt":"My second blog post!"}]}}}
-=======
-{"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Another Post","author":"Erixhens Muka","slug":"another-post"},"excerpt":"My second blog post!"},{"frontmatter":{"title":"Hello World!","author":"Erixhens Muka","slug":"hello-world"},"excerpt":"My first blog post written with MDX!"}]}}}
->>>>>>> 2fcfa794c375b8c94bacfffe80cf000952c9acde

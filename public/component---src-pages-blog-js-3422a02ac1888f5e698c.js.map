@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/blog.js"],"names":[],"mappings":"2FAAA,6CAEe,4BACb,YAAC,IAAD,KACE","file":"component---src-pages-blog-js-3422a02ac1888f5e698c.js","sourcesContent":["import React from \"react\"\r\nimport Layout from \"../components/layout\"\r\nexport default () => (\r\n  <Layout>\r\n    <h1>My blog!</h1>\r\n  </Layout>\r\n)\r\n"],"sourceRoot":""}
