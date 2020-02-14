@@ -5,11 +5,13 @@ module.exports = {
     description: "Personal Website",
   },
   plugins: [
+    
     {
       resolve: "gatsby-plugin-simple-analytics",
       options: {
-        // Optional custom domain
-        domain: "erixhens.me",
+        eventsGlobal: "sa",
+        events: true,
+        trackPageViews: true,
       },
     },
     "gatsby-plugin-emotion",

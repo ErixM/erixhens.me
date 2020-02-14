@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/another-post"},{"path":"/hello-world"},{"path":"/about/"},{"path":"/blog/"},{"path":"/contact/"},{"path":"/"}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
-=======
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/another-post"},{"path":"/hello-world"},{"path":"/about/"},{"path":"/blog/"},{"path":"/contact/"},{"path":"/"},{"path":"/newPage/"}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
->>>>>>> 2fcfa794c375b8c94bacfffe80cf000952c9acde
+{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/hello-world"},{"path":"/another-post"},{"path":"/about/"},{"path":"/blog/"},{"path":"/contact/"},{"path":"/"}]}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
