@@ -5,12 +5,6 @@ module.exports = {
     description: "Personal Website",
   },
   plugins: [
-    {
-      resolve: "simple-analytics-gatsby-plugin",
-      options: {
-        trackPageViews: true,
-      },
-    },
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
     {
