@@ -11,7 +11,7 @@ module.exports = {
         eventsGlobal: "sa",
         events: true,
         trackPageViews: true,
-        ignorePages: [""],
+        ignorePages: ["none"],
       },
     },
     "gatsby-plugin-emotion",
