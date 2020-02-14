@@ -8,14 +8,10 @@ module.exports = {
     {
       resolve: "simple-analytics-gatsby-plugin",
       options: {
-        eventsGlobal: "sa",
-        events: true,
         trackPageViews: true,
-        ignorePages: ["none"],
       },
     },
     "gatsby-plugin-emotion",
-
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-mdx",
