@@ -7,15 +7,18 @@ module.exports = {
   plugins: [
     
     {
-      resolve: "gatsby-plugin-simple-analytics",
+      resolve: "simple-analytics-gatsby-plugin",
       options: {
         eventsGlobal: "sa",
         events: true,
         trackPageViews: true,
+<<<<<<< HEAD
+=======
+        ignorePages: ["pathname"],
+>>>>>>> 1a7ea05d76b8217ba40b54f5aaaa4c693634b3af
       },
     },
     "gatsby-plugin-emotion",
-
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-mdx",
