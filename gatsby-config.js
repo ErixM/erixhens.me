@@ -6,15 +6,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-simple-analytics",
+      resolve: "simple-analytics-gatsby-plugin",
       options: {
-        metomic: "POLICY-SLUG",
-      },
-    },
-    {
-      resolve: `gatsby-plugin-metomic`,
-      options: {
-        clientId: "prj:e48b623d-8c75-4613-ba5a-a567bbe9b42b",
+        eventsGlobal: "sa",
+        events: true,
+        trackPageViews: true,
+        ignorePages: [""],
       },
     },
     "gatsby-plugin-emotion",
