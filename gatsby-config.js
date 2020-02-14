@@ -6,10 +6,12 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-simple-analytics",
+      resolve: "simple-analytics-gatsby-plugin",
       options: {
-        // Optional custom domain
-        domain: "erixhens.me",
+        eventsGlobal: "sa",
+        events: true,
+        trackPageViews: true,
+        ignorePages: ["pathname"],
       },
     },
     "gatsby-plugin-emotion",
