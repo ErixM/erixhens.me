@@ -5,17 +5,12 @@ module.exports = {
     description: "Personal Website",
   },
   plugins: [
-    
     {
       resolve: "simple-analytics-gatsby-plugin",
       options: {
         eventsGlobal: "sa",
         events: true,
         trackPageViews: true,
-<<<<<<< HEAD
-=======
-        ignorePages: ["pathname"],
->>>>>>> 1a7ea05d76b8217ba40b54f5aaaa4c693634b3af
       },
     },
     "gatsby-plugin-emotion",
