@@ -42,6 +42,20 @@ module.exports = {
         analyzerMode: "static",
       },
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Erixhens.me`,
+        short_name: `Erixhens`,
+        start_url: `/`,
+        background_color: `#343633`,
+        theme_color: `#59abe3`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {},
+    },
   ],
 }
