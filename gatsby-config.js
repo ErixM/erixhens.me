@@ -42,6 +42,6 @@ module.exports = {
         analyzerMode: "static",
       },
     },
-    
+    `gatsby-plugin-offline`,
   ],
 }
