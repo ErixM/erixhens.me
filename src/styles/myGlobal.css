@@ -54,12 +54,16 @@ ul {
   font-size: larger;
 }
 #index-h1{
-  display: flex;
+  display: block;
   padding: 1rem;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   background: black;
   border-radius: 5px;
   mix-blend-mode: multiply;
-
+}
+@media screen and (max-width:992px){
+  #main-sidebar{
+    display: none;
+  }
 }
