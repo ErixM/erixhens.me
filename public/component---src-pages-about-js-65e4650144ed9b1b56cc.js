@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"3XHS":function(t,e,n){"use strict";n.r(e);n("q1tI");var c=n("Bl7J"),l=n("qKvR");e.default=function(){return Object(l.c)(c.a,null,Object(l.c)("h1",null,"About me!"),Object(l.c)("p",null,"Hi! I'm a 25 year old self-taught front-end developer, currently located in Italy. I'm good with html/css and javascript. I'm currently learning React."))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-65e4650144ed9b1b56cc.js.map
