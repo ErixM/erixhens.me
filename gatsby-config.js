@@ -51,6 +51,7 @@ module.exports = {
         background_color: `#343633`,
         theme_color: `#59abe3`,
         display: `standalone`,
+        icon: `./static/Erix.png`
       },
     },
     {
