@@ -3,7 +3,11 @@ module.exports = {
   siteMetadata: {
     title: "Erixhens Muka",
     description: "Personal Website",
-    siteUrl: "https://erixhens.me"
+    siteUrl: "https://erixhens.me",
+    author: {
+      name: "Erixhens Muka",
+      minibio: "Erixhens Muka is a 25 year old frontend developer"
+    }
   },
   plugins: [
     "gatsby-plugin-sitemap",
