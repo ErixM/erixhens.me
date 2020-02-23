@@ -3,8 +3,10 @@ module.exports = {
   siteMetadata: {
     title: "Erixhens Muka",
     description: "Personal Website",
+    siteUrl: "https://erixhens.me"
   },
   plugins: [
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
