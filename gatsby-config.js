@@ -15,6 +15,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-plugin-mdx",
       options: {
@@ -57,7 +58,18 @@ module.exports = {
         background_color: `#343633`,
         theme_color: `#59abe3`,
         display: `standalone`,
-        icon: `./static/Erix.svg`
+        icons: [
+          {
+            src: '/android-chrome-192x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+          },
+          {
+            src: '/android-chrome-512x512.png',
+            sizes: '512x512',
+            type: 'image/png',
+          },
+        ],
       },
     },
     {

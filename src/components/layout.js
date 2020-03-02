@@ -1,8 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import Sidebar from "./sidebar"
 import { Global, css } from "@emotion/core"
 import Helmet from "react-helmet"
 import useSiteMetadata from "../hooks/use-sitemetadata"
+// import styled from "styled-components"
 
 const Layout = ({ children }) => {
   const { title, description } = useSiteMetadata()
