@@ -6,15 +6,15 @@ module.exports = {
     siteUrl: "https://erixhens.me",
     author: {
       name: "Erixhens Muka",
-      minibio: "Erixhens Muka is a 25 year old frontend developer"
-    }
+      minibio: "Erixhens Muka is a 25 year old frontend developer",
+    },
   },
   plugins: [
     "gatsby-plugin-sitemap",
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    
     "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-plugin-mdx",
@@ -60,14 +60,14 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: '/android-chrome-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
+            src: "/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
           },
           {
-            src: '/android-chrome-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
+            src: "/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
           },
         ],
       },
