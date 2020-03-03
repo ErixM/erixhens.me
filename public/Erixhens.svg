@@ -1,0 +1,63 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="97.16312050819394"
+  height="74.16312050819397"
+>
+  <rect
+    id="backgroundrect"
+    width="100%"
+    height="100%"
+    x="0"
+    y="0"
+    fill="none"
+    stroke="none"
+    class=""
+  />
+  <title>Erixhens Logo</title>
+
+  <g class="currentLayer">
+    <title>Layer 1</title>
+    <g id="Livello_1-2" data-name="Livello 1" class="">
+      <text
+        font-size="96"
+        fill="#343633"
+        font-family="OCRAExtended, OCR A Extended"
+        letter-spacing="-0.08em"
+        y="60.96732044219971"
+        x="-4.285968899726868"
+        id="svg_1"
+        transform="matrix(0.978849, 0, 0, 0.992835, -0.0600029, -0.127235)"
+      >
+        er
+      </text>
+      <text
+        font-size="96"
+        fill="#59abe3"
+        stroke="#343633"
+        stroke-miterlimit="10"
+        font-family="OCRAExtended, OCR A Extended"
+        letter-spacing="-0.08em"
+        y="60.96732044219971"
+        x="-4.285968899726868"
+        id="svg_2"
+        transform="matrix(0.978849, 0, 0, 0.992835, -0.0600029, -0.127235)"
+      >
+        er
+      </text>
+      <text
+        font-size="96"
+        fill="none"
+        stroke="#343633"
+        stroke-miterlimit="10"
+        font-family="OCRAExtended, OCR A Extended"
+        letter-spacing="-0.08em"
+        y="60.96732044219971"
+        x="-4.285968899726868"
+        id="svg_3"
+        transform="matrix(0.978849, 0, 0, 0.992835, -0.0600029, -0.127235)"
+      >
+        er
+      </text>
+    </g>
+  </g>
+</svg>
