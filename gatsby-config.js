@@ -14,7 +14,7 @@ module.exports = {
     "gatsby-plugin-emotion",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
-    
+    "gatsby-plugin-sharp",
     "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-plugin-mdx",
@@ -23,7 +23,12 @@ module.exports = {
           default: require.resolve("./src/components/layout.js"),
         },
         gatsbyRemarkPlugins: [{ resolve: "gatsby-remark-images" }],
-        plugins: [{ resolve: "gatsby-remark-images" }],
+        plugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: { quality: 90, withWebp: true },
+          },
+        ],
       },
     },
     {

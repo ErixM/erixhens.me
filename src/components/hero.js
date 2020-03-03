@@ -41,7 +41,7 @@ const Hero = () => {
     query MyQuery {
       image: file(relativePath: { eq: "alex.jpg" }) {
         sharp: childImageSharp {
-          fluid {
+          fluid(quality: 100, maxWidth: 1920) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
