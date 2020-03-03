@@ -81,5 +81,11 @@ module.exports = {
       resolve: `gatsby-plugin-offline`,
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://erixhens.me`,
+      },
+    },
   ],
 }
