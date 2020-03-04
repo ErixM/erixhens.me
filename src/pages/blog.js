@@ -8,7 +8,7 @@ export default () => {
   const posts = usePosts()
   return (
     <Layout>
-      <h1>My blog!</h1>
+      <h1 className="top-title">My blog!</h1>
       {posts.map(post => (
         <PostPreview key={post.slug} post={post} />
       ))}

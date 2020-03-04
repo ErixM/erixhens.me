@@ -4,7 +4,12 @@ import Layout from "../components/layout"
 const NotFound = () => {
   return (
     <Layout>
-      <h1>Page not found <span role="img" aria-label="eyes">👀</span></h1>
+      <h1 className="top-title">
+        Page not found{" "}
+        <span role="img" aria-label="eyes">
+          👀
+        </span>
+      </h1>
     </Layout>
   )
 }

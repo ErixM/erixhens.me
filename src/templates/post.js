@@ -8,7 +8,7 @@ import ReadLink from "../components/read-link"
 export const query = graphql`
   query($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
-      frontmatter{
+      frontmatter {
         title
         author
       }
@@ -30,7 +30,9 @@ const PostTemplate = ({ data: { mdx: post } }) => (
       >
         Posted by {post.frontmatter.author}
       </p>
-      <ReadLink to="/blog">&larr; back to all posts</ReadLink>
+      <ReadLink to="/blog">&larr; Back to all posts</ReadLink>
+      <br />
+      <ReadLink to="/blog-it">&larr; Torna indietro</ReadLink>
     </article>
   </Layout>
 )

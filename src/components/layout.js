@@ -1,8 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 import Sidebar from "./sidebar"
 import { Global, css } from "@emotion/core"
 import Helmet from "react-helmet"
 import useSiteMetadata from "../hooks/use-sitemetadata"
+import NavLang from "./nav-lang"
 // import styled from "styled-components"
 
 const Layout = ({ children }) => {
@@ -73,6 +74,7 @@ const Layout = ({ children }) => {
       <div id="global-container">
         {/* ^ flex container, below flex items */}
         <Sidebar />
+        <NavLang />
         <div id="main-content-right">{children}</div>
       </div>
     </>

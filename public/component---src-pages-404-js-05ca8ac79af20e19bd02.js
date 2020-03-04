@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{w2l6:function(e,t,n){"use strict";n.r(t);n("q1tI");var a=n("Bl7J"),c=n("qKvR");t.default=function(){return Object(c.c)(a.a,null,Object(c.c)("h1",{className:"top-title"},"Page not found"," ",Object(c.c)("span",{role:"img","aria-label":"eyes"},"👀")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-05ca8ac79af20e19bd02.js.map

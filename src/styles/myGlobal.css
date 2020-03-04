@@ -21,12 +21,22 @@
   margin: 0 auto;
   /* border: 5px solid coral; */
   /* height: auto; */
-  flex: 5;
+  flex: 6;
   overflow: auto;
-  background-color: #F3EEE2;
+  /* background-color: #f3eee2; */
+  background-color: whitesmoke;
 }
+
 #top-nav {
   float: right;
+}
+#lang-nav {
+  display: flex;
+  z-index: 5;
+  right: 2rem;
+  top: 0rem;
+  position: fixed;
+  border-radius: 2px;
 }
 a {
   color: #343633;
@@ -53,7 +63,7 @@ ul {
 #contactMe {
   font-size: larger;
 }
-#index-h1{
+#index-h1 {
   display: block;
   padding: 1rem;
   color: white;
@@ -62,8 +72,13 @@ ul {
   border-radius: 5px;
   mix-blend-mode: multiply;
 }
-@media screen and (max-width:992px){
-  #main-sidebar{
+@media screen and (max-width: 992px) {
+  #main-sidebar {
     display: none;
   }
+}
+.top-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
