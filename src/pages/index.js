@@ -6,7 +6,7 @@ const HomePage = () => (
   <>
     <Layout>
       <Hero />
-      <h1>Main Page </h1>
+      <h1> </h1>
     </Layout>
   </>
 )
