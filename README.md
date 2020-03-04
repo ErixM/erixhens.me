@@ -1,13 +1,13 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
 <h1 align="center">
-  My work-in-progress website!
-
-To run locally type
-
-```
-gatsby develop
-
-```
-
+  Welcome to my website!
+  
+  To run locally first run 
+  
+  ```
+  npm i
+  ```
+  and then 
+  ```
+  gatsby develop
+  ```
 </h1>
