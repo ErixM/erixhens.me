@@ -14,6 +14,9 @@ export default () => (
       <li>
         <a href="https://www.linkedin.com/in/erixhens-muka/">LinkedIn</a>
       </li>
+      <li>
+        <a href="https://github.com/ErixM">Github</a>
+      </li>
     </ul>
   </Layout>
 )
